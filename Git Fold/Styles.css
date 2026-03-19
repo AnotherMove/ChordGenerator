@@ -1,0 +1,48 @@
+body::before {
+    content: '';                  /* ✅ порожній псевдоелемент */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('Images/a22adf5f-3d6c-488c-b166-f1b8e4b701f7.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(0.5px);            /* ✅ розмиття 5px */
+    z-index: -1;                  /* ✅ під кнопкою */
+}
+
+
+.Golovniy {
+  display: flex;
+  justify-content: center;  /* Горизонтальний центр */
+  align-items: center;      /* Вертикальний центр */
+  height: 40px;     
+        /* Повна висота екрана */
+}
+
+.Golovniy {
+  margin-top: 500px;         /* Зсув нижче на 20px, регулюй за потребою */
+}
+
+#chords-output {
+color: rgb(249, 222, 171);
+background-color: rgb(42, 46, 46);
+
+border: 2px solid rgb(171, 193, 200);
+border-width: 2px;
+border-radius: 4px;
+border: ;
+
+
+display: inline-block;
+}
+.Plus {
+
+text-align: center;
+margin-top: -5%;
+
+
+
+}
